@@ -1,4 +1,8 @@
 node {
    echo 'Hello World'
+<<<<<<< HEAD
    echo 'Hello Universe'
 }
+=======
+}
+>>>>>>> origin/master
