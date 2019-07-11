@@ -1,4 +1,10 @@
-node {
-   echo 'Hello World'
-   echo 'Hello Universe'
+pipeline {
+    agent { label 'master' }
+    stages {
+        stage('build') {
+            steps {
+                echo "Hello World!"
+            }
+        }
+    }
 }
